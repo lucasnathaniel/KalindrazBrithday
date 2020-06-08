@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    color: #EEEEEE;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/48/Gay_Pride_Flag.svg);
+    background-color: #333;
+    background-repeat: repeat-y;
+    background-size: cover;
+    text-align: center;
+    overflow-x:hidden;
+
+}
+
+.gay {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    margin-top: 20px;
+    text-shadow: black 1px 1px 3px;
+    transition: transform ease-in-out 0.4s;
+}
+.gay:hover {
+    transform: scale(1.3);
+}
+
+.baitolagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.coisa-gay {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 10px 20px;
+    display: flex;
+    border-radius: 10px;
+    flex:1;
+    background: rgba(210, 210, 210, 0.9);
+    color: gray;
+    min-width: 300px;
+    box-shadow: black 1px 1px 8px;
+    transition: transform ease-in-out 0.2s;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.coisa-gay:hover {
+    transform: scale(1.025);
+}
+
+.cabecalho-baitola {
+    order: 1;
+    min-height: 20px;
+    padding: 10px 15px;
+}
+
+.conteudo-baitola {
+    order: 2;
+    flex-grow: 1;
+    padding: 5px 10px;
+}
+
+.footer-baitola {
+    padding: 5px 10px;
+    order: 3;
+    min-height: 50px;
+    text-align: end;
+}
+.nome-do-gay {
+    color: #333;
+    font-style: italic;
+}
+.avatar {
+    margin: 10px;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+.download{
+    background: rgba(210, 210, 210, 0.9);
+    border-radius: 10px;
+    margin: 10px 20px;
+    box-shadow: black 1px 1px 8px;
+    padding: 10px 15px;
+    color: #111;
+
+}
+.btn-download {
+    background-color: #55F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color ease-in-out 0.2s;
+    font-weight: 700;
+
+}
+.btn-download:hover {
+    background-color: #77F;
+}
+
+.titulo-surpresa {
+    font-size: 1.4em;
+}
